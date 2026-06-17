@@ -1,4 +1,4 @@
-# Visual Pipeline Builder
+# Visual Pipeline Builder-Vector
 
 A drag-and-drop pipeline builder built with React Flow + FastAPI.
 
@@ -7,6 +7,7 @@ A drag-and-drop pipeline builder built with React Flow + FastAPI.
 - **Frontend:** React 18, ReactFlow 11, Zustand
 - **Backend:** Python 3, FastAPI, Pydantic
 - **Styling:** Plain CSS with custom properties (dark theme)
+
 
 ## Features
 
@@ -30,6 +31,13 @@ npm start
 ```
 
 Open `http://localhost:3000`.
+
+
+
+## Demo
+<img width="1920" height="1080" alt="Screenshot From 2026-06-17 10-59-12" src="https://github.com/user-attachments/assets/a649976a-933b-4dd5-9cf6-366ed490b3dc" />
+<img width="582" height="383" alt="Screenshot From 2026-06-17 10-59-41" src="https://github.com/user-attachments/assets/4be6563b-15d3-4619-89a8-0cdae652356a" />
+
 
 ## API
 
