@@ -38,6 +38,25 @@ Open `http://localhost:3000`.
 <img width="1920" height="1080" alt="Screenshot From 2026-06-17 10-59-12" src="https://github.com/user-attachments/assets/a649976a-933b-4dd5-9cf6-366ed490b3dc" />
 <img width="582" height="383" alt="Screenshot From 2026-06-17 10-59-41" src="https://github.com/user-attachments/assets/4be6563b-15d3-4619-89a8-0cdae652356a" />
 
+## Project Structure
+
+```
+├── frontend/
+│   └── src/
+│       ├── nodes/          # 9 node components + BaseNode wrapper
+│       ├── nodetypes.js    # Node type registry
+│       ├── ui.js           # React Flow canvas
+│       ├── toolbar.js      # Draggable toolbar
+│       ├── submit.js       # Backend submission handler
+│       ├── store.js        # Zustand state management
+│       ├── App.js          # Root component
+│       └── index.css       # Global styles + design tokens
+├── backend/
+│   └── main.py             # FastAPI server + DAG validation
+├── .gitignore
+├── README.md
+└── PLAN.md
+```
 
 ## API
 
